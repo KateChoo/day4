@@ -1,0 +1,123 @@
+@import url('reset.css');
+
+* {
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+body{
+  background-color: #f6f6f6;
+  font-family: Candara, Arial, sans-serif;
+}
+
+/* a  color */
+a {
+  color: rgb(121, 121, 121);
+  font-size: 16px;
+}
+
+
+/* ------------- Main Buttons ------------- */
+ul {
+  width: 800px;
+  margin: 0 auto;
+  background: lightgray;
+  
+  display: flex;
+  justify-content: space-evenly;
+
+  position: relative;
+
+  margin-bottom: 1rem;
+  
+}
+
+ul>li{ 
+  width: 100%;
+  text-align: center;
+  padding: 1rem 2rem;
+}
+ul>li:hover{
+  background: #232323;
+}
+
+
+
+/* ------------- Sub Buttons ------------- */
+ol{
+  position: absolute;
+  top: 3rem;
+  left:-.2rem; 
+  background: #faf9f9;
+}
+ol>li  {
+  max-width: 163px;
+  display: none;
+  background: #faf9f9;
+  padding: .5rem 2rem;
+}
+
+
+
+
+/* ------------- hover & show ------------- */
+ul >li:hover ol>li {
+  display: block;
+}
+ol>li:hover   {
+  max-width: 163px;
+  padding: .5rem 2rem;
+  background: lightgray;
+}
+
+/* ------------- Just for practice ------------- */
+ul>li:nth-child(2):hover ol>li {
+  display: block;
+  position: absolute;
+  
+  left: 163px;
+  width: 163px; 
+  /* height: 48px;  */
+}
+
+ul>li:nth-child(3):hover ol>li {
+  display: block;
+  position: absolute;
+  
+  left: 323px;
+  width: 163px; 
+  /* height: 96px;  */
+}
+
+
+
+
+
+
+
+
+/* content */
+.content{
+  width: 800px;
+  height: 300px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+
+  /* position: relative;
+  z-index: 1; */
+}
+
+.content img{
+  display: block;
+
+  /* position: fixed;
+  z-index: 1; */
+}
+
+
+
