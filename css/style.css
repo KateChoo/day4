@@ -52,11 +52,11 @@ ul>li:hover{
 ol{
   position: absolute;
   top: 3rem;
-  left:-.2rem; 
+  left:-.05rem; 
   background: #faf9f9;
 }
 ol>li  {
-  max-width: 163px;
+  max-width: 161px;
   display: none;
   background: #faf9f9;
   padding: .5rem 2rem;
@@ -70,7 +70,7 @@ ul >li:hover ol>li {
   display: block;
 }
 ol>li:hover   {
-  max-width: 163px;
+  max-width: 161px;
   padding: .5rem 2rem;
   background: lightgray;
 }
@@ -80,8 +80,8 @@ ul>li:nth-child(2):hover ol>li {
   display: block;
   position: absolute;
   
-  left: 163px;
-  width: 163px; 
+  left: 161px;
+  width: 161px; 
   /* height: 48px;  */
 }
 
@@ -89,8 +89,8 @@ ul>li:nth-child(3):hover ol>li {
   display: block;
   position: absolute;
   
-  left: 323px;
-  width: 163px; 
+  left: 321px;
+  width: 161px; 
   /* height: 96px;  */
 }
 
@@ -107,16 +107,10 @@ ul>li:nth-child(3):hover ol>li {
   height: 300px;
   margin: 0 auto;
   border: 1px solid #ccc;
-
-  /* position: relative;
-  z-index: 1; */
 }
 
 .content img{
   display: block;
-
-  /* position: fixed;
-  z-index: 1; */
 }
 
 
